@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../img/sala.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+a .logo_principal {   /* para achicar la foto*/
+    height: 78px;
+    margin-right: 0;
+}
+header { /* encabezado*/
+    font-family: Montserrat;
+    display: flex;
+    height: 75px;
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo a { /* esto es para centrar tanto el logo como el h1*/ 
+    display: flex;
+    align-items: center;
+}
+
+a{ /*modificando todas las url */
+    text-decoration: none;
+    color: rgb(253, 249, 249);
+    font-family: Montserrat;
+    line-height: 2;
+    text-align: center;
+    padding-right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: black;
+    border-radius: 10px;
+
+}
+ul li :hover{ /*darle color a la url si el mause lo toca*/
+    color: yellow; 
+}
+    ul li{ /* que los ul esten al lado no en orden*/
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+h1{ /*decorando el H1 */
+width: 300px;
+background-color:rgb(255, 255, 255) ;
+color: rgb(192, 66, 66);
+font-family: Montserrat;
+font-size: 39px;
+font-weight: 700;
+margin: 0;
+}
+  
+.login { /*estilos en el boton de LOGIN*/
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: rgba(155, 153, 33, 0.671);
+}
+
+/* ahora vamos a dar estilo a cada ventana (html)*/ 
+/*EMPEZAMOS POR EL INDEX*/
+    .portada_index
+     {
+        text-align: center;
+    }
+.h2_index {
+    color: rgb(0, 0, 0);
+    background-color: rgba(208, 211, 18, 0.842);
+    width: 300px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 12px;
+}
+.prox_estrenos {
+    padding: 10px;
+    margin-right: 9px;
+}
+
+  
+
+
+ 
+footer{
+    font-family: Montserrat;
+    background-color: brown;
+     padding: 80px 0;
+  color: blanchedalmond;
+  justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+     
+}
+ 
+    .contenido_footer {
+      
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        
+        
+    }
+    
+    
+  
+    
+
+
+    
+  
+ 
+
+
+    
+.h3_footer{
+    padding: 15px;
+    display: flex;
+      font-family: Montserrat;
+      background-position: 0 20px;
+
+    
+}
+.footer_p2 {
+   display: flex;
+   text-align: center center;
+   font-size: medium;
+   font-weight: 500;
+   
+}
+.footer_url ul {
+     
+    text-align: center center;
+    text-overflow: clip;
+     
+}
+.footer_final{
+     
+    text-align: center center;
+     
+}
+.footer_url ul :hover {
+    color: yellow;
+}
+
+    .iconos_sociales li a img { /*footer*/
+        height: 23px;
+        width: 25px;
+        padding: 0 10px;
+        margin-bottom: 0;
+     display: flex;
+        
+
+    }
